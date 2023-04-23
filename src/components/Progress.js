@@ -4,7 +4,7 @@ import '../assets/css/Progress.css';
 export default function Progress({ProgressTotal,progressComplete,progressSize}) {
 
     var downloadProgress = (x,y)=>{
-        return (x*100)/y;
+        return (x * 100) / y;
     };
 
     var value = downloadProgress(parseFloat(progressComplete),parseFloat(ProgressTotal));
