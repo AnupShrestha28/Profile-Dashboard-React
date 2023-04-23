@@ -1,0 +1,46 @@
+{
+    "company_name": "RnD bikas bank",
+    "users": [
+      {
+        "full_name": "Roshan Shrestha",
+        "age": 25,
+        "designation": "SSE",
+        "active_status": "active",
+        "download_completed_rate": {
+          "total": 5,
+          "completed": 2,
+          "size_type": "GB"
+        },
+        "invited_status": "invited"
+      },
+      {
+        "full_name": "Shankar Shrestha",
+        "age": 35,
+        "designation": "UI/UX",
+        "active_status": "in_active",
+        "download_completed_rate": {
+          "total": 5,
+          "completed": 5,
+          "size_type": "MB"
+        },
+        "invited_status": "not_invited"
+      },
+      {
+        "full_name": "Rahul Shrestha",
+        "age": 16,
+        "designation": "DB Engineer",
+        "active_status": "blocked",
+        "download_completed_rate": {
+          "total": 50,
+          "completed": 0.5,
+          "size_type": "GB"
+        },
+        "invited_status": "invited"
+      }
+    ],
+    "metadata": {
+      "total_page": 1,
+      "current_page": 1,
+      "total_data": 3
+    }
+  }

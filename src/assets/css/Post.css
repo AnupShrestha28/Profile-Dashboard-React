@@ -1,0 +1,13 @@
+.post{
+    position: relative;
+}
+
+.post-info{
+    color: #767676;
+    position: absolute;
+    top: 110px;
+    left: 680px;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

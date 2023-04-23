@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import TableHeader from "./components/TableHeader";
+import data from './data.json';
+import './assets/css/Title.css';
+import NameList from './components/NameList.js';
+import Post from './components/Post.js';
+import Status from "./components/Status";
+import Progress from "./components/Progress.js";
+import ActionEvent from "./components/ActionEvent.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <h2 className="title-info">{data.company_name}</h2>
+    <TableHeader />
+
+    {data.users.map((user) => {
+      return(
+            <>
+                <NameList fullName={user.full_name} />
+                <Post position = {user.designation} />
+                <Status status = {user.active_status}/>
+                <Progress ProgressTotal = {user.download_completed_rate.total}
+                          progressComplete = {user.download_completed_rate.completed}
+                          progressSize = {user.download_completed_rate.size_type}
+                />
+                <ActionEvent action = {user.invited_status} />
+            </>
+        );
+      })}
+   </>
   );
 }
 

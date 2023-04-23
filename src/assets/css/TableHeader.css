@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table-header{
+    position: relative;
+    width: 700px;
+    height: 47px;
+    left: 380px;
+    top: 130px;
+    background: #FFFFFF;
+}
+
+.table-header-name{
+    position: absolute;
+    width: 30px;
+    height: 13px;
+    left: 75px;
+    top: 15px;
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+.table-header-pos{
+    position: absolute;
+    width: 42px;
+    height: 13px;
+    left: 290px;
+    top: 15px;
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.table-header-stat{
+    position: absolute;
+    width: 33px;
+    height: 13px;
+    left: 380px;
+    top: 15px;
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.table-header-prog{
+    position: absolute;
+    width: 46px;
+    height: 13px;
+    left: 520px;
+    top: 15px;
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.table-header-act{
+    position: absolute;
+    width: 33px;
+    height: 13px;
+    left: 630px;
+    top: 15px;
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}

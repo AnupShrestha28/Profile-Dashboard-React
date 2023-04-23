@@ -1,0 +1,45 @@
+.status {
+    width: 68px;
+    height: 17px;
+    position: relative;
+  }
+
+  .active {
+    background-color: #19E26A;
+    padding: 2px 14px;
+    position: absolute;
+    top: 107px;
+    left: 755px;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  
+  .blocked {
+    background-color: #E21926;
+    padding: 2px 14px;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 11px;
+    color: #ffffff;
+    position: absolute;
+    top: 111px;
+    left: 755px;
+  }
+
+
+  .in_active{
+      background-color: #b1b1b1;
+      padding: 2px 14px;
+      border-radius: 9px;
+      font-weight: 600;
+      font-size: 11px;
+      color: #ffffff;
+      position: absolute;
+      top: 105px;
+      left: 755px;
+  }
+
+
+  

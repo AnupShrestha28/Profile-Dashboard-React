@@ -1,0 +1,31 @@
+.progress-bar-info{
+    width: 104px;
+    height: 13px;
+    border-radius: 3px;
+    background: #f0f0f0;
+    position: relative;
+    top: 85px;
+    left: 890px;
+}
+
+
+.progress-info-value{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #19e26a;
+    border-radius: 3px;
+}
+
+
+.progress-info {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    position: relative;
+    top: 90px;
+    left: 895px;
+}

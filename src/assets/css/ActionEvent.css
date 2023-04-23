@@ -1,0 +1,26 @@
+.btn{
+    width: 55px;
+height: 23px;
+border-radius: 3px;
+border-style: none;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.15px;
+color: #FFFFFF;
+cursor: pointer;
+margin-left: 50px;
+}
+.invited{
+background: #6200EE;
+position: relative;
+top: 50px;
+left: 960px;
+}
+.not_invited{
+    background: #E21926;
+    position: relative;
+top: 50px;
+left: 960px;
+}
+

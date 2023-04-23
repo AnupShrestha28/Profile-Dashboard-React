@@ -1,0 +1,30 @@
+.fullName{
+    position: relative;
+    width: 700px;
+    height: 56px;
+    left: 380px;
+    top: 150px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.fullName-info{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+.fullName-info-start{
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    border-radius: 50%;
+    background: #6200EE;
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
