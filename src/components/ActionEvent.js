@@ -11,7 +11,7 @@ export default function ActionEvent({action}) {
     }
 
     return(
-        <button className={actionClass?`${actionClass} btn`:""}>
+        <button className={actionClass?`${actionClass} btn-info`:""}>
             {actionValue}
         </button>
     );
