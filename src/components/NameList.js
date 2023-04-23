@@ -6,7 +6,7 @@ export default function NameList({fullName}) {
         <>
             <div className='fullName'>
                 <div className='fullName-info'>{fullName}</div>
-                <div className='fullName-info-start'>{fullName.slice(0,1)}</div>
+                <div className='fullName-info-start'>{fullName?.slice(0,1)}</div>
             </div>
         </>
   )
